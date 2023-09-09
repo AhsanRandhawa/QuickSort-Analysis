@@ -1,7 +1,7 @@
 # QuickSort-Analysis
 Investigating the use of different pivot picking strategies on the runtime of QuickSort.
 
-##Introduction
+## Introduction
 
 Instead of making 4 different functions for our four different implementations for QuickSort. We have made a 
 single function(quickSort) that takes the type of implementation as a character parameter, and selects the Pivot 
@@ -27,7 +27,7 @@ The allVariances() function has no inputs, but is used to generate all of the da
 mini research study in a user-friendly way.
 
 
-##How to Use
+## How to Use
 
 If you wish to just see all the data we used in our research paper in an easy to use manner, just call
 allVariances() in the main function,(the code already does this, so you can run the code without making any
@@ -44,7 +44,7 @@ and the time you wish the experiments to be repeated.
 
 
 
-###Char Values For Array Type
+### Char Values For Array Type
 
 For Random Array Input the character value is 'r'.
 
@@ -52,7 +52,7 @@ For Partially Sorted Array Input the character value is 'p'.
 
 For Mostly Sorted Array Input the default character value is 'm'.
 
-###Char Values For Algorithm Type
+### Char Values For Algorithm Type
 
 For Deterministic Algorithm the character value is 'd'.
 
@@ -62,7 +62,7 @@ For Middle Index Experiment Algorithm the character value is 'e'.
 
 For Median Algorithm the default character value is 's'. Or Any other character that is not 'd', 'r', 'e'.
 
-##Acknowledgements
+## Acknowledgements
 
 Professor Kristen Gardner,
 Javier Matos,
