@@ -1,6 +1,8 @@
 # QuickSort-Analysis
 Investigating the use of different pivot picking strategies on the runtime of QuickSort.
 
+Found that choosing Median of 3 random indices in the list as the pivot element works even better than choosing a random index as pivot 
+
 ## Introduction
 
 Instead of making 4 different functions for our four different implementations for QuickSort. We have made a 
